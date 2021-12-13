@@ -1,0 +1,57 @@
+h1 {
+  color: rgba(255, 0, 0, 0.925);
+  font-size: 40px;
+  font-family: fantasy;
+  text-shadow: 1px 1px 3px rgb(0, 183, 255);
+  padding: 5px;
+  transform: rotate(358deg)
+}
+
+body {
+  color: white;
+  font-family: "Lucida sans";
+  background-image: url(https://media.istockphoto.com/photos/portrait-of-a-beautiful-lion-lion-in-dark-picture-id1001983834?k=20&m=1001983834&s=170667a&w=0&h=rIquc103sVKY3-jYh0bjIIxwRWyntS3EEqTOwTDMd8w=);
+  background-size: cover;
+}
+
+.calculator {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 240px 200px;
+  text-align: left;
+  column-gap: 10px;
+  row-gap: 15px;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+  .calculator {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 90px 200px;
+    text-align: left;
+    column-gap: 10px;
+    row-gap: 15px;
+    font-size: 12px;
+  }
+}
+
+img {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+  transition: width 1s;
+
+}
+
+img:hover {
+  width: 35%;
+}
+
+a {
+  color: white;
+}
